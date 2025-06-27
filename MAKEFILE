@@ -4,6 +4,8 @@ chapter01:
 	mkdir -p ./BUILD/
 	clang ./CHAPTER01/return69.asm -o ./BUILD/return69
 	clang ./CHAPTER01/return69-clang.asm -o ./BUILD/return69-clang
+	clang ./CHAPTER01/hello_world.asm -o ./BUILD/hello_world
+	clang ./CHAPTER01/hello_world-clang.asm -o ./BUILD/hello_world-clang
 
 clean:
 	rm -rf ./BUILD/
