@@ -6,12 +6,12 @@ update it regularly when I'm learning something new about it.
 
 ## Get Started
 
-    ```console
-    make -B
-    ```
+```console
+make -f MAKEFILE -B
+```
 
 ## Chapters 
 
-    | Name | Info |
-    | ---- | ---- |
-    | CHAPTER01 | Return 69 & Hello World Examples |
+| Name      | Info                             |
+| --------- | -------------------------------- |
+| CHAPTER01 | Return 69 & Hello World Examples |

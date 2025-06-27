@@ -1,0 +1,9 @@
+all: chapter01
+
+chapter01:
+	mkdir -p ./BUILD/
+	clang ./CHAPTER01/return69.asm -o ./BUILD/return69
+	clang ./CHAPTER01/return69-clang.asm -o ./BUILD/return69-clang
+
+clean:
+	rm -rf ./BUILD/
